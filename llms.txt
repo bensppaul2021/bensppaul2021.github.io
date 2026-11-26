@@ -1,0 +1,63 @@
+# Soumya Paul
+
+> Munich, Germany · Senior LLM Expert at Embraceable Technology
+> Sources: https://bensppaul2021.github.io/people.html · https://bensppaul2021.github.io/cv.md · https://bensppaul2021.github.io/Soumya_Paul_CV.pdf
+
+Strategy and AI leader who turns emerging technology into commercial outcomes. Advises executives on where to invest, build vs. buy, and how to scale AI across the business. Runs teams and programmes end-to-end, from strategy through delivery, with hands-on technical depth as the differentiator. Holds European patent EP 21213382 on a core AI method.
+
+## Highlights
+- +25% user-engagement lift from a new AI platform
+- +35% delivery-efficiency gain across projects
+- 5+ engineers led; scaled via GCP & Predibase
+- Inventor of MSR (Multi-Space Reasoning): best-in-class accuracy with no fine-tuning
+- IONOS Partner Award — AI Project of the Year 2025 (e1, deductive-reasoning AI)
+- Selected for “AI in the Alps” alongside 40 leading AI scientists incl. Sepp Hochreiter
+
+## Work experience
+
+### Senior LLM Expert — Embraceable Technology GmbH, Karlsruhe (02/2025 – present)
+- Advised leadership on AI investment, build-vs-buy and infrastructure strategy, shaping the AI portfolio roadmap
+- Led a programme portfolio from strategy through delivery, owning the AI roadmap and leading five engineers
+- Developed e1 (deductive-reasoning AI); IONOS Partner Award "AI Project of the Year 2025"
+- Invented MSR (Multi-Space Reasoning): best-in-class accuracy with no fine-tuning; selected for "AI in the Alps"
+- Built and mentored a high-performing applied-AI team
+
+### Senior AI Consultant & Tech Lead — Avemio AG, Munich (03/2023 – 02/2025)
+- +25% user engagement with an AI-based conversational OS platform for enterprise users
+- Tech Lead on a public-grant Generative AI initiative
+- Partnerships with Google Cloud and Predibase for enterprise scale
+- Built the AI infrastructure and cross-functional team from zero
+
+### Applied AI Engineer — EpiQMAX GmbH, Munich (05/2021 – 11/2022)
+- Interpretable cloud AI platform for biomarker-driven drug discovery; owned the MSI data platform
+- Led AI product design; European patent EP 21213382
+
+### Earlier experience (2011 – 2020)
+Junior Research Scientist, Max Planck Institute of Psychiatry (explainable AI, +15% prediction accuracy) · Computer Vision & AI Engineer, Raytrix · Deep-Learning Research Intern, KUKA Robotics (+30% grasp success) & Fortiss · research roles at TU Chemnitz, Leibniz-Institut für Wissensmedien, MPI for Biological Cybernetics, Mercedes-Benz R&D, GEOMAR, Indian Statistical Institute (Junior Research Fellow)
+
+## Education & training
+- B.Tech, Instrumentation & Control Engineering — West Bengal University of Technology, Kolkata (2007–2011), First Class
+- IMPRS-TP Graduate Programme — PhD track, Max Planck Institute of Psychiatry
+
+## Core skills
+- Strategy & leadership: AI strategy, build-vs-buy & investment advisory, technical roadmapping, team leadership & mentorship, stakeholder management, cross-functional delivery
+- Technical: LLMs & GenAI, RAG & fine-tuning, Python / PyTorch, MLOps & cloud (AWS, GCP), computer vision, vector DBs
+- AI-assisted development: backend & frontend (Claude Code, Cursor, OpenCode)
+
+## Awards & honours
+- MSR research selected for "AI in the Alps", alongside 40 leading AI scientists incl. Sepp Hochreiter
+- IONOS Partner Award — AI Project of the Year 2025 (e1)
+- 1st Prize, RE ESG Data Science Hackathon
+- Selected, Cross AI Hack, BMW & Siemens AI Lab
+- Travel Grant, IEEE VR 2015, France
+
+## Languages & more
+- Languages: Bengali (native), English (C1), German (B1)
+- Publications: IEEE VR Doctoral Consortium, IEEE VR 2015 (Arles) · Oral presentation, VCSS 2015 (Rostock)
+- Volunteering: Machine Learning Mentor, ReDI School, Munich (since 03/2025)
+
+## Contact
+- Email: soumyapaulofficial@gmail.com
+- LinkedIn: https://www.linkedin.com/in/soumya-paul-1636a68a/
+- GitHub: https://github.com/bensppaul2021
+- Patent: https://register.epo.org/application?number=EP21213382&tab=main

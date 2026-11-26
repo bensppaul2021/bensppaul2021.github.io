@@ -1,0 +1,4 @@
+mcp/node_modules/
+mcp/.wrangler/
+mcp/dist/
+**/.DS_Store
