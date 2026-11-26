@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Soumya Paul — CV</title>
+<meta name="description" content="Soumya Paul — AI Expert and Senior LLM Expert. Inventor of Multi-Space Reasoning (MSR), European patent EP 21213382.">
+<meta property="og:title" content="Soumya Paul — CV">
+<meta property="og:description" content="AI Expert · Senior LLM Expert · Inventor of MSR">
+<meta property="og:type" content="profile">
+<link rel="canonical" href="https://bensppaul2021.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F5F0; --paper:#FBFAF6; --ink:#1B1F27; --muted:#5E636B; --rule:#D9D6CC;
+  --navy:#1F3A5F; --teal:#2C7A7B; --rust:#B4532A;
+  --serif:"Fraunces",Georgia,serif; --text:"Newsreader",Georgia,serif;
+  --sans:"Public Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){--bg:#14171C;--paper:#1A1E24;--ink:#E8E6DF;--muted:#9AA0A8;--rule:#2E333B;--navy:#8FB3E0;--teal:#6CC3C1;--rust:#E58A5E}
+}
+:root[data-theme=dark]{--bg:#14171C;--paper:#1A1E24;--ink:#E8E6DF;--muted:#9AA0A8;--rule:#2E333B;--navy:#8FB3E0;--teal:#6CC3C1;--rust:#E58A5E}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 var(--text);-webkit-font-smoothing:antialiased}
+a{color:var(--navy);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--rust)}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--ink);color:var(--bg);padding:.4rem .8rem;z-index:9}
+.wrap{max-width:760px;margin:0 auto;padding:0 1.5rem}
+.mono{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* nav */
+nav.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav.top .wrap{display:flex;gap:1.25rem;align-items:center;height:52px;font-family:var(--sans);font-size:.85rem}
+nav.top a{color:var(--ink);text-decoration:none}
+nav.top a:hover{color:var(--rust)}
+nav.top .brand{font-family:var(--serif);font-weight:600;font-size:1rem;margin-right:auto}
+nav.top button{font:inherit;background:none;border:1px solid var(--rule);border-radius:99px;padding:.2rem .7rem;color:var(--ink);cursor:pointer}
+
+/* header */
+header.hero{padding:4.5rem 0 2.5rem;border-bottom:1px solid var(--rule)}
+header.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.6rem,7vw,4.2rem);line-height:1.02;margin:.6rem 0 .8rem;letter-spacing:-.02em}
+header.hero .role{font-family:var(--sans);font-size:1.05rem;color:var(--muted);margin:0 0 1.4rem}
+header.hero .bio{font-size:1.2rem;max-width:36em}
+.links{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin-top:1.6rem;font-family:var(--sans);font-size:.9rem}
+.actions{display:flex;gap:.6rem;margin-top:1.6rem}
+.btn{font-family:var(--sans);font-size:.85rem;padding:.5rem 1rem;border-radius:99px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);text-decoration:none;cursor:pointer}
+.btn.ghost{background:none;color:var(--ink)}
+.btn:hover{background:var(--rust);border-color:var(--rust);color:#fff}
+
+/* short cv */
+section.block{padding:2.6rem 0;border-bottom:1px solid var(--rule)}
+section.block>h2{font-family:var(--mono);font-weight:500;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--rust);margin:0 0 1.4rem}
+.item{display:grid;grid-template-columns:150px 1fr;gap:1.2rem;margin-bottom:1.6rem}
+.item:last-child{margin-bottom:0}
+.item .when{font-family:var(--mono);font-size:.75rem;color:var(--muted);padding-top:.35rem}
+.item h3{font-family:var(--serif);font-weight:600;font-size:1.15rem;margin:0;line-height:1.3}
+.item .org{font-family:var(--sans);font-size:.88rem;color:var(--muted);margin:.15rem 0 .5rem}
+.item ul{margin:.3rem 0 0;padding-left:1.1rem}
+.item li{margin:.2rem 0}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.case{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:1.1rem 1.2rem;text-decoration:none;color:var(--ink);transition:border-color .2s,transform .2s}
+.case:hover{border-color:var(--teal);transform:translateY(-2px);color:var(--ink)}
+.case .mono{color:var(--teal)}
+.case h3{font-family:var(--serif);font-weight:600;font-size:1.05rem;margin:.4rem 0 .3rem}
+.case p{margin:0;font-size:.95rem;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem}
+.tags span{font-family:var(--sans);font-size:.82rem;border:1px solid var(--rule);border-radius:99px;padding:.2rem .7rem;background:var(--paper)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.stat{border-top:2px solid var(--rust);padding-top:.6rem}
+.stat b{display:block;font-family:var(--serif);font-weight:400;font-size:2.4rem;line-height:1.1}
+.stat span{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.earlier li{margin:.35rem 0}
+.cols h4{font-family:var(--sans);font-weight:600;font-size:.85rem;margin:0 0 .5rem}
+
+/* edition */
+.edition-head{padding:5rem 0 1.5rem;text-align:center}
+.edition-head h2{font-family:var(--serif);font-weight:400;font-size:2.4rem;margin:.4rem 0}
+.edition-head p{color:var(--muted);font-style:italic;margin:0}
+.index{columns:2;column-gap:2rem;font-family:var(--sans);font-size:.92rem;padding:1.5rem 0 2.5rem;border-bottom:1px solid var(--rule);list-style:none;margin:0}
+.index li{break-inside:avoid;padding:.3rem 0;display:flex;gap:.8rem}
+.index b{font-family:var(--mono);font-weight:500;color:var(--rust);min-width:2.2rem}
+.index a{color:var(--ink);text-decoration:none}.index a:hover{color:var(--rust)}
+article.ch{padding:3.5rem 0;border-bottom:1px solid var(--rule)}
+article.ch .num{font-family:var(--serif);font-size:3.4rem;color:var(--rust);line-height:1;opacity:.85}
+article.ch h2{font-family:var(--serif);font-weight:400;font-size:2rem;margin:.3rem 0 1.2rem;letter-spacing:-.01em}
+article.ch p{margin:0 0 1rem}
+article.ch p.lede:first-letter{font-family:var(--serif);float:left;font-size:3.6rem;line-height:.9;padding:.3rem .5rem 0 0;color:var(--navy)}
+figure{margin:2rem 0;background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:1.4rem}
+figure svg{width:100%;height:auto;display:block}
+figcaption{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--muted);margin-top:1rem;text-transform:uppercase}
+figcaption b{color:var(--rust);font-weight:500}
+details{border-top:1px solid var(--rule);padding:.8rem 0;font-family:var(--sans);font-size:.92rem}
+details summary{cursor:pointer;font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--teal)}
+details[open] summary{margin-bottom:.6rem}
+
+/* timeline */
+.tl{position:relative;margin:1.5rem 0 0;padding-left:1.6rem;border-left:2px solid var(--rule)}
+.tl .step{position:relative;margin-bottom:1.6rem;opacity:0;transform:translateY(10px);transition:opacity .6s,transform .6s}
+.tl .step.in{opacity:1;transform:none}
+.tl .step::before{content:"";position:absolute;left:calc(-1.6rem - 7px);top:.5rem;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--teal)}
+.tl .step.now::before{background:var(--rust);border-color:var(--rust)}
+.tl h3{font-family:var(--serif);font-weight:600;font-size:1.1rem;margin:0}
+.tl p{margin:.3rem 0 0;font-size:1rem}
+
+footer{padding:3rem 0 4rem;font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+
+@media (max-width:640px){
+  .item{grid-template-columns:1fr;gap:.2rem}
+  .cases,.cols,.stats{grid-template-columns:1fr}
+  .index{columns:1}
+  nav.top .hide-sm{display:none}
+}
+@media (prefers-reduced-motion:reduce){.tl .step{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media print{
+  nav.top,.actions,.edition,footer{display:none}
+  body{background:#fff;color:#000;font-size:11pt}
+  header.hero{padding:0 0 1rem}
+  section.block{padding:1rem 0;break-inside:avoid}
+  .case{border-color:#ccc}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="top" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#">Soumya Paul</a>
+    <a href="#cv">CV</a>
+    <a href="#skills" class="hide-sm">Skills</a>
+    <a href="#edition">Full story</a>
+    <a href="cv.md" class="hide-sm">cv.md</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+  </div>
+</nav>
+
+<main id="main">
+<div class="wrap">
+
+<header class="hero">
+  <div class="mono">Munich, Germany</div>
+  <h1>Soumya Paul</h1>
+  <p class="role">AI Expert · Senior LLM Expert at Embraceable Technology</p>
+  <p class="bio">Strategy and AI leader who turns emerging technology into commercial outcomes. I advise executives on where to invest, build vs. buy, and how to scale AI across the business — and run teams and programmes end-to-end, from strategy through delivery, with hands-on technical depth as the differentiator.</p>
+  <div class="stats">
+    <div class="stat"><b>+25%</b><span>User-engagement lift from a new AI platform</span></div>
+    <div class="stat"><b>+35%</b><span>Delivery-efficiency gain across projects</span></div>
+    <div class="stat"><b>5+</b><span>Engineers led; scaled via GCP &amp; Predibase</span></div>
+  </div>
+  <div class="links">
+    <a href="mailto:soumyapaulofficial@gmail.com">soumyapaulofficial@gmail.com</a>
+    <a href="https://www.linkedin.com/in/soumya-paul-1636a68a/">LinkedIn</a>
+    <a href="https://github.com/bensppaul2021">GitHub</a>
+    <a href="https://register.epo.org/application?number=EP21213382&amp;tab=main">Patent EP 21213382</a>
+  </div>
+  <div class="actions">
+    <a class="btn" href="#edition">Full story</a>
+    <button class="btn ghost" type="button" onclick="window.print()">Print / PDF</button>
+  </div>
+</header>
+
+<section class="block" id="cv">
+  <h2>Experience</h2>
+  <div class="item">
+    <div class="when">02/2025 – Present</div>
+    <div>
+      <h3>Senior LLM Expert</h3>
+      <div class="org">Embraceable Technology GmbH · Karlsruhe, Germany</div>
+      <ul>
+        <li>Advised leadership on AI investment, build-vs-buy and infrastructure strategy, shaping the AI portfolio roadmap.</li>
+        <li>Led a programme portfolio from strategy through delivery, owning the AI roadmap and leading five engineers.</li>
+        <li>Developed <strong>e1</strong> (deductive-reasoning AI) and won the <a href="https://www.ionos.de/newsroom/news/gemeinsam-erfolgreich-ionos-verleiht-partner-awards-2025/">IONOS Partner Award</a> for “AI Project of the Year 2025”.</li>
+        <li>Invented <strong>MSR (Multi-Space Reasoning)</strong>, a novel architecture matching best-in-class accuracy with no fine-tuning, cutting deployment cost and effort; selected for “AI in the Alps” alongside 40 leading AI scientists.</li>
+        <li>Built and mentored a high-performing applied-AI team, setting engineering and review standards for production.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="item">
+    <div class="when">03/2023 – 02/2025</div>
+    <div>
+      <h3>Senior AI Consultant &amp; Tech Lead</h3>
+      <div class="org">Avemio AG · Munich, Germany</div>
+      <ul>
+        <li>Grew user engagement 25% by launching an AI-based conversational OS platform for enterprise users.</li>
+        <li>Promoted to Tech Lead on a public-grant Generative AI initiative, owning delivery across the programme.</li>
+        <li>Formed partnerships with Google Cloud and Predibase to scale the platform to enterprise deployment.</li>
+        <li>Built the AI infrastructure and cross-functional team from zero, creating a platform the company could take to market.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="item">
+    <div class="when">05/2021 – 11/2022</div>
+    <div>
+      <h3>Applied AI Engineer</h3>
+      <div class="org">EpiQMAX GmbH · Munich, Germany</div>
+      <ul>
+        <li>Delivered an interpretable cloud AI platform for biomarker-driven drug discovery, owning the MSI data platform.</li>
+        <li>Led AI product design and secured European patent EP 21213382 on the platform’s core AI method.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="item">
+    <div class="when">2011 – 2020</div>
+    <div>
+      <h3>Earlier experience</h3>
+      <ul class="earlier">
+        <li><strong>Junior Research Scientist</strong>, Max Planck Institute of Psychiatry — explainable-AI framework, +15% prediction accuracy</li>
+        <li><strong>Computer Vision &amp; AI Engineer</strong>, Raytrix</li>
+        <li><strong>Deep-Learning Research Intern</strong>, KUKA Robotics (+30% robot-grasp success) &amp; Fortiss</li>
+        <li>Research roles at TU Chemnitz, Leibniz-Institut für Wissensmedien, Max Planck Institute for Biological Cybernetics, Mercedes-Benz R&amp;D, GEOMAR, and Indian Statistical Institute (Junior Research Fellow)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <h2>Education &amp; training</h2>
+  <div class="item">
+    <div class="when">2007 – 2011</div>
+    <div><h3>B.Tech, Instrumentation &amp; Control Engineering</h3><div class="org">West Bengal University of Technology, Kolkata · First Class</div></div>
+  </div>
+  <div class="item">
+    <div class="when">PhD track</div>
+    <div><h3>IMPRS-TP Graduate Programme</h3><div class="org">Selected for the competitive PhD track, Max Planck Institute of Psychiatry</div></div>
+  </div>
+</section>
+
+<section class="block" id="skills">
+  <h2>Core skills</h2>
+  <div class="cols">
+    <div><h4>Strategy &amp; leadership</h4><div class="tags"><span>AI strategy</span><span>Build-vs-buy &amp; investment advisory</span><span>Technical roadmapping</span><span>Team leadership &amp; mentorship</span><span>Stakeholder management</span><span>Cross-functional delivery</span></div></div>
+    <div><h4>Technical</h4><div class="tags"><span>LLMs &amp; GenAI</span><span>RAG &amp; fine-tuning</span><span>Python / PyTorch</span><span>MLOps &amp; cloud (AWS, GCP)</span><span>Computer vision</span><span>Vector DBs</span></div></div>
+    <div><h4>AI-assisted development</h4><div class="tags"><span>Backend &amp; frontend</span><span>Claude Code</span><span>Cursor</span><span>OpenCode</span></div></div>
+  </div>
+</section>
+
+<section class="block">
+  <h2>Awards &amp; honours</h2>
+  <div class="item"><div class="when">Recognition</div><div><h3>“AI in the Alps”</h3><div class="org">MSR research selected; presented alongside 40 leading AI scientists, incl. Sepp Hochreiter</div></div></div>
+  <div class="item"><div class="when">2025</div><div><h3>IONOS Partner Award — AI Project of the Year</h3><div class="org">For e1, deductive-reasoning AI</div></div></div>
+  <div class="item"><div class="when">Achievement</div><div><h3>1st Prize, RE ESG Data Science Hackathon</h3></div></div>
+  <div class="item"><div class="when">Selectivity</div><div><h3>Cross AI Hack, BMW &amp; Siemens AI Lab</h3><div class="org">Selected — vehicle image classifier</div></div></div>
+  <div class="item"><div class="when">2015</div><div><h3>Travel Grant, IEEE VR 2015</h3><div class="org">France</div></div></div>
+</section>
+
+<section class="block">
+  <h2>Publications &amp; volunteering</h2>
+  <div class="item"><div class="when">2015</div><div><h3>IEEE VR Doctoral Consortium</h3><div class="org">IEEE VR 2015, Arles, France</div></div></div>
+  <div class="item"><div class="when">2015</div><div><h3>Oral presentation, VCSS 2015</h3><div class="org">Rostock, Germany</div></div></div>
+  <div class="item"><div class="when">Since 03/2025</div><div><h3>Machine Learning Mentor</h3><div class="org">ReDI School, Munich</div></div></div>
+</section>
+
+<section class="block">
+  <h2>Languages</h2>
+  <div class="tags"><span>Bengali — native</span><span>English — C1</span><span>German — B1</span></div>
+</section>
+
+</div>
+
+<!-- ============ EDITION ============ -->
+<div class="edition" id="edition">
+<div class="wrap">
+  <div class="edition-head">
+    <div class="mono">The detailed edition</div>
+    <h2>From research lab to reasoning AI</h2>
+    <p>A longer account, in six chapters.</p>
+  </div>
+
+  <ol class="index">
+    <li><b>I.</b><a href="#ch-now">Now</a></li>
+    <li><b>II.</b><a href="#ch-path">The path</a></li>
+    <li><b>III.</b><a href="#ch-built">Built</a></li>
+    <li><b>IV.</b><a href="#ch-numbers">Cabinet of numbers</a></li>
+    <li><b>V.</b><a href="#ch-research">Research roots</a></li>
+    <li><b>VI.</b><a href="#ch-colophon">Colophon</a></li>
+  </ol>
+
+  <article class="ch" id="ch-now">
+    <div class="num">I.</div>
+    <h2>Now</h2>
+    <p class="lede">At Embraceable Technology I sit between the boardroom and the codebase: advising leadership on where AI money should go, then owning the roadmap and the team that delivers it.</p>
+    <p>The technical centre of that work is <strong>Multi-Space Reasoning (MSR)</strong> — an architecture I invented that reaches best-in-class accuracy without fine-tuning, which cuts the cost and effort of every deployment. MSR was selected for “AI in the Alps”, presented alongside 40 leading AI scientists including Sepp Hochreiter. Alongside it, <strong>e1</strong>, our deductive-reasoning AI, won the IONOS Partner Award for AI Project of the Year 2025.</p>
+    <figure>
+      <svg viewBox="0 0 640 260" role="img" aria-label="Diagram: several reasoning spaces converge on one decision without fine-tuning">
+        <g font-family="JetBrains Mono, monospace" font-size="11" fill="currentColor">
+          <g stroke="var(--rule)" fill="none" stroke-width="1.5">
+            <ellipse cx="120" cy="70" rx="90" ry="40"/><ellipse cx="120" cy="190" rx="90" ry="40"/>
+            <ellipse cx="300" cy="50" rx="80" ry="34"/><ellipse cx="300" cy="210" rx="80" ry="34"/>
+          </g>
+          <text x="120" y="74" text-anchor="middle">SPACE A</text>
+          <text x="120" y="194" text-anchor="middle">SPACE B</text>
+          <text x="300" y="54" text-anchor="middle">SPACE C</text>
+          <text x="300" y="214" text-anchor="middle">SPACE D</text>
+          <g stroke="var(--teal)" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+            <path d="M210 70 C 380 80, 420 120, 480 130"/><path d="M210 190 C 380 180, 420 140, 480 130"/>
+            <path d="M380 50 C 430 70, 450 110, 480 130"/><path d="M380 210 C 430 190, 450 150, 480 130"/>
+          </g>
+          <circle cx="510" cy="130" r="30" fill="none" stroke="var(--rust)" stroke-width="2"/>
+          <circle cx="510" cy="130" r="6" fill="var(--rust)"/>
+          <text x="510" y="182" text-anchor="middle" fill="var(--rust)">CONCLUSION</text>
+          <text x="510" y="198" text-anchor="middle">NO FINE-TUNING</text>
+        </g>
+      </svg>
+      <figcaption><b>FIG. 01</b> — Multi-Space Reasoning: evidence from several reasoning spaces converges on one conclusion, without fine-tuning the model.</figcaption>
+    </figure>
+  </article>
+
+  <article class="ch" id="ch-path">
+    <div class="num">II.</div>
+    <h2>The path</h2>
+    <p>Fifteen years, from instrumentation and control to reasoning AI.</p>
+    <div class="tl">
+      <div class="step"><div class="mono">2007 – 2011 · Kolkata</div><h3>B.Tech, Instrumentation &amp; Control</h3><p>West Bengal University of Technology, First Class.</p></div>
+      <div class="step"><div class="mono">2011 – 2020 · India &amp; Germany</div><h3>Research years</h3><p>Indian Statistical Institute, Max Planck Institutes, Mercedes-Benz R&amp;D, KUKA Robotics, Raytrix and more — vision, robotics and explainable AI.</p></div>
+      <div class="step"><div class="mono">2021 – 2022 · EpiQMAX</div><h3>Applied AI Engineer</h3><p>Interpretable AI for drug discovery; European patent EP 21213382.</p></div>
+      <div class="step"><div class="mono">2023 – 2025 · Avemio</div><h3>Senior AI Consultant &amp; Tech Lead</h3><p>Enterprise conversational AI platform, Google Cloud and Predibase partnerships.</p></div>
+      <div class="step now"><div class="mono">2025 – now · Embraceable</div><h3>Senior LLM Expert</h3><p>MSR, e1, and the AI roadmap.</p></div>
+    </div>
+  </article>
+
+  <article class="ch" id="ch-built">
+    <div class="num">III.</div>
+    <h2>Built</h2>
+    <p><strong>MSR — Multi-Space Reasoning.</strong> A reasoning architecture matching best-in-class accuracy with no fine-tuning.</p>
+    <p><strong>e1.</strong> Deductive-reasoning AI at Embraceable; IONOS Partner Award, AI Project of the Year 2025.</p>
+    <p><strong>Conversational OS platform.</strong> An AI-based platform for enterprise users at Avemio, built with its infrastructure and team from zero; +25% user engagement.</p>
+    <p><strong>Interpretable drug-discovery platform.</strong> A cloud AI platform for biomarker-driven drug discovery at EpiQMAX, including the MSI data platform.</p>
+    <p><strong>Explainable-AI framework.</strong> At the Max Planck Institute of Psychiatry; +15% prediction accuracy.</p>
+    <details><summary>Details and sources</summary><a href="https://www.ionos.de/newsroom/news/gemeinsam-erfolgreich-ionos-verleiht-partner-awards-2025/">IONOS Partner Awards 2025</a> · <a href="https://register.epo.org/application?number=EP21213382&amp;tab=main">EP 21213382 at the European Patent Register</a></details>
+  </article>
+
+  <article class="ch" id="ch-numbers">
+    <div class="num">IV.</div>
+    <h2>Cabinet of numbers</h2>
+    <div class="stats">
+      <div class="stat"><b>+25%</b><span>User engagement — AI conversational OS platform, Avemio</span></div>
+      <div class="stat"><b>+35%</b><span>Delivery efficiency across projects</span></div>
+      <div class="stat"><b>+30%</b><span>Robot-grasp success — deep learning, KUKA Robotics</span></div>
+      <div class="stat"><b>+15%</b><span>Prediction accuracy — explainable-AI framework, MPI Psychiatry</span></div>
+      <div class="stat"><b>40</b><span>Leading AI scientists presented alongside at “AI in the Alps”</span></div>
+      <div class="stat"><b>1</b><span>European patent, EP 21213382</span></div>
+    </div>
+  </article>
+
+  <article class="ch" id="ch-research">
+    <div class="num">V.</div>
+    <h2>Research roots</h2>
+    <p>Before industry, nearly a decade of research across some of Europe’s strongest labs — the Max Planck Institutes for Psychiatry and for Biological Cybernetics, Leibniz-Institut für Wissensmedien, TU Chemnitz, GEOMAR and Fortiss — after starting as a Junior Research Fellow at the Indian Statistical Institute.</p>
+    <p>That work produced an IEEE VR 2015 Doctoral Consortium paper (Arles, France), an oral presentation at VCSS 2015 (Rostock) and an IEEE VR travel grant, and led to selection for the IMPRS-TP PhD track at the Max Planck Institute of Psychiatry. It is why the reasoning systems I build today are meant to be inspectable, not just accurate.</p>
+    <p>Today I pass some of it on as a Machine Learning Mentor at ReDI School, Munich.</p>
+  </article>
+
+  <article class="ch" id="ch-colophon">
+    <div class="num">VI.</div>
+    <h2>Colophon</h2>
+    <p><a href="mailto:soumyapaulofficial@gmail.com">soumyapaulofficial@gmail.com</a> · <a href="https://www.linkedin.com/in/soumya-paul-1636a68a/">LinkedIn</a> · <a href="https://github.com/bensppaul2021">GitHub</a></p>
+    <p>Bengali (native) · English (C1) · German (B1)</p>
+    <p class="mono" style="margin-top:1.5rem">Set in Fraunces, Newsreader, Public Sans and JetBrains Mono. Hand-written HTML, hosted on GitHub Pages.</p>
+  </article>
+</div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Soumya Paul</span>
+    <span><a href="#">Top</a> · <a href="cv.md">cv.md</a> · <a href="https://www.linkedin.com/in/soumya-paul-1636a68a/">LinkedIn</a> · <a href="https://github.com/bensppaul2021">GitHub</a></span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme'),saved=null;
+  try{saved=localStorage.getItem('theme')}catch(e){}
+  if(saved)root.setAttribute('data-theme',saved);
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+    var next=dark?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next)}catch(e){}
+  });
+  var steps=document.querySelectorAll('.tl .step');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e,i){if(e.isIntersecting){setTimeout(function(){e.target.classList.add('in')},i*150);io.unobserve(e.target)}})},{threshold:.3});
+    steps.forEach(function(s){io.observe(s)});
+  }else steps.forEach(function(s){s.classList.add('in')});
+})();
+</script>
+</body>
+</html>
