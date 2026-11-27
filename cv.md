@@ -1,6 +1,6 @@
 # Soumya Paul — AI Expert
 
-Munich, Germany · soumyapaulofficial@gmail.com · [LinkedIn](https://www.linkedin.com/in/soumya-paul-1636a68a/) · [GitHub](https://github.com/bensppaul2021)
+Munich, Germany · soumyapaulofficial@gmail.com · [bensppaul2021.github.io](https://bensppaul2021.github.io/) · [LinkedIn](https://www.linkedin.com/in/soumya-paul-1636a68a/) · [GitHub](https://github.com/bensppaul2021)
 
 Strategy and AI leader who turns emerging technology into commercial outcomes. Advises executives on where to invest, build vs. buy, and how to scale AI across the business. Runs teams and programmes end-to-end, from strategy through delivery, with hands-on technical depth as the differentiator. Holds European patent EP 21213382 on a core AI method.
 
