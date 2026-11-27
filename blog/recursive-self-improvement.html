@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Recursive Self Improvement — Soumya Paul</title>
+<meta name="description" content="Recursive Self Improvement — notes by Soumya Paul.">
+<link rel="canonical" href="https://bensppaul2021.github.io/blog/recursive-self-improvement.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F5F0; --ink:#1B1F27; --muted:#5E636B; --rule:#D9D6CC;
+  --navy:#1F3A5F; --rust:#B4532A;
+  --serif:"Fraunces",Georgia,serif; --text:"Newsreader",Georgia,serif;
+  --sans:"Public Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){--bg:#14171C;--ink:#E8E6DF;--muted:#9AA0A8;--rule:#2E333B;--navy:#8FB3E0;--rust:#E58A5E}
+}
+:root[data-theme=dark]{--bg:#14171C;--ink:#E8E6DF;--muted:#9AA0A8;--rule:#2E333B;--navy:#8FB3E0;--rust:#E58A5E}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 var(--text);-webkit-font-smoothing:antialiased}
+a{color:var(--navy);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--rust)}
+.wrap{max-width:760px;margin:0 auto;padding:0 1.5rem}
+nav.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav.top .wrap{display:flex;gap:1.25rem;align-items:center;height:52px;font-family:var(--sans);font-size:.85rem}
+nav.top a{color:var(--ink);text-decoration:none}
+nav.top a:hover{color:var(--rust)}
+nav.top .brand{font-family:var(--serif);font-weight:600;font-size:1rem;margin-right:auto}
+nav.top button{font:inherit;background:none;border:1px solid var(--rule);border-radius:99px;padding:.2rem .7rem;color:var(--ink);cursor:pointer;margin-left:auto}
+.mono{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+article.post{padding:4rem 0 6rem;min-height:60vh}
+article.post h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.5rem 0 0;letter-spacing:-.02em}
+footer{padding:2rem 0 3rem;font-family:var(--sans);font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule)}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="../people.html">Soumya Paul</a>
+    <a href="../people.html#blog">Blog</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+  </div>
+</nav>
+<main>
+  <div class="wrap">
+    <article class="post">
+      <p class="mono"><a href="../people.html#blog">← Blog</a></p>
+      <h1>Recursive Self Improvement</h1>
+    </article>
+  </div>
+</main>
+<footer>
+  <div class="wrap"><a href="../people.html#blog">Back to blog</a></div>
+</footer>
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme'),saved=null;
+  try{saved=localStorage.getItem('theme')}catch(e){}
+  if(saved)root.setAttribute('data-theme',saved);
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+    var next=dark?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next)}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>

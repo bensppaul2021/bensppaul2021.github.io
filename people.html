@@ -77,6 +77,10 @@ section.block>h2{font-family:var(--mono);font-weight:500;font-size:.75rem;letter
 .stat span{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
 .earlier li{margin:.35rem 0}
 .cols h4{font-family:var(--sans);font-weight:600;font-size:.85rem;margin:0 0 .5rem}
+.posts{display:grid;gap:0;border-top:1px solid var(--rule)}
+.post-link{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;font-family:var(--serif);font-size:1.15rem}
+.post-link:hover{color:var(--rust)}
+.post-link span{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
 
 /* edition */
 .edition-head{padding:5rem 0 1.5rem;text-align:center}
@@ -136,6 +140,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
     <a href="index.html">For agents<span aria-hidden="true"> ↗</span></a>
     <span aria-current="page" class="hide-sm" style="color:var(--muted)">For people</span>
     <a href="#cv">CV</a>
+    <a href="#blog">Blog</a>
     <a href="#skills" class="hide-sm">Skills</a>
     <a href="#edition" class="hide-sm">Full story</a>
     <a href="Soumya_Paul_CV.pdf" class="hide-sm">cv.pdf ↓</a>
@@ -258,6 +263,15 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
   <div class="item"><div class="when">2015</div><div><h3>IEEE VR Doctoral Consortium</h3><div class="org">IEEE VR 2015, Arles, France</div></div></div>
   <div class="item"><div class="when">2015</div><div><h3>Oral presentation, VCSS 2015</h3><div class="org">Rostock, Germany</div></div></div>
   <div class="item"><div class="when">Since 03/2025</div><div><h3>Machine Learning Mentor</h3><div class="org">ReDI School, Munich</div></div></div>
+</section>
+
+<section class="block" id="blog">
+  <h2>Blog</h2>
+  <div class="posts">
+    <a class="post-link" href="blog/harness-engineering.html">Harness Engineering<span>Open →</span></a>
+    <a class="post-link" href="blog/recursive-self-improvement.html">Recursive Self Improvement<span>Open →</span></a>
+    <a class="post-link" href="blog/context-engineering.html">Context Engineering<span>Open →</span></a>
+  </div>
 </section>
 
 <section class="block">
